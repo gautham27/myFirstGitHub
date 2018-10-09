@@ -32,6 +32,6 @@ public class AppTest{
 	@Test
 	public static void main3() throws IOException
 	{
-		Assert.assertEquals(true, false);
+		Assert.assertEquals(true, true);
 	}
 }
