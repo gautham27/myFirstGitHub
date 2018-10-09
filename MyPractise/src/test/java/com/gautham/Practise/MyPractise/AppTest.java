@@ -13,7 +13,7 @@ public class AppTest{
 	
 	public static void main(String[] a) throws IOException
 	{
-		System.setProperty("webdriver.chrome.driver", "G:\\GauthamWS\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\jars\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.co.in");
@@ -21,9 +21,6 @@ public class AppTest{
 		TakesScreenshot scrShot =((TakesScreenshot)driver);
 	File file=	scrShot.getScreenshotAs(OutputType.FILE);
 			File DestFile=new File("G:\\GauthamWS\\1.jpg");
-
-    //Copy file at destination
-
-    FileUtils.copyFile(file, DestFile);
+  FileUtils.copyFile(file, DestFile);
 	}
 }
