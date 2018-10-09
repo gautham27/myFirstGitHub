@@ -22,6 +22,7 @@ public class AppTest{
 		driver.get("https://www.google.co.in");
 		
 		System.out.println(driver.getTitle());
-		Assert.assertEquals(true, true);
+		System.out.println(driver.getPageSource());
+		Assert.assertEquals(true, false);
 	}
 }
