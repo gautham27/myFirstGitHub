@@ -8,10 +8,11 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class AppTest{
-	
-	public static void main(String[] a) throws IOException
+	@Test
+	public static void main() throws IOException
 	{
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\jars\\chromedriver.exe");
 		
