@@ -1,8 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="TmpSuite" >
-  <test name="TmpTest" >
-    <classes>
-      <class name="com.gautham.Practise.MyPractise.AppTest"  />
-    </classes>
-    </test>
-</suite>
