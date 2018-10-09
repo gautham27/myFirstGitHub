@@ -25,4 +25,14 @@ public class AppTest{
 		System.out.println(driver.getPageSource());
 		Assert.assertEquals(true, false);
 	}
+	@Test
+	public static void main2() throws IOException
+	{
+		Assert.assertEquals(true, true);
+	}
+	@Test
+	public static void main3() throws IOException
+	{
+		Assert.assertEquals(true, false);
+	}
 }
