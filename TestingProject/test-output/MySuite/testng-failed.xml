@@ -5,6 +5,7 @@
     <classes>
       <class name="com.gautham.Practise.MyPractise.AppTest">
         <methods>
+          <include name="main3"/>
           <include name="main"/>
         </methods>
       </class> <!-- com.gautham.Practise.MyPractise.AppTest -->

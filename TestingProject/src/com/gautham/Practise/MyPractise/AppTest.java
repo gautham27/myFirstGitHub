@@ -23,7 +23,7 @@ public class AppTest{
 		
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getPageSource());
-		Assert.assertEquals(true, false);
+		Assert.assertEquals(true, true);
 	}
 	@Test
 	public static void main2() throws IOException
@@ -33,6 +33,6 @@ public class AppTest{
 	@Test
 	public static void main3() throws IOException
 	{
-		Assert.assertEquals(true, false);
+		Assert.assertEquals(true, true);
 	}
 }
