@@ -27,7 +27,7 @@ public class AppTest{
 	@Test
 	public static void main2() throws IOException
 	{
-		Assert.assertEquals(true, true);
+		Assert.assertEquals(true, false);
 	}
 	@Test
 	public static void main3() throws IOException
